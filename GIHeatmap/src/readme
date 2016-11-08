@@ -1,0 +1,18 @@
+GI HEATMAP MODEL
+
+OBJECT BREAKDOWN
+
+	DataCalculator.java
+		Calculate all needed data in order to generate a heatmap.
+	
+	DataPreparation.java
+		Collect all needed data for heatmap calculations.
+
+	...		
+	...
+	
+	
+FLOWCHART
+	
+	GIHeatmap - Main class, triggers all subclasses
+		DataPreparation -> DataCalculator
