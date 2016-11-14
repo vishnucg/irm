@@ -1,0 +1,8 @@
+/bin/
+/metastore_db/
+/1
+/derby.log
+/target/
+/metastore_db_old/
+/logging.log
+/lib/

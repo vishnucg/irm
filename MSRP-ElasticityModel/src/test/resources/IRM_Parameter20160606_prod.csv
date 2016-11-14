@@ -1,0 +1,86 @@
+parameter_name,description,consumer_system,granularity,granularity_value,parameter_value,start_date,end_date,create_source,create_user_id
+OUT_OF_DOOR_RV,out of door rvf,RVF,"MAKE_NM,series_fuel_nm","TOYOTA,CAMRY",0.93,1/1/16,1/1/17,manual,405016
+OUT_OF_DOOR_RV,out of door rvf,RVF,"MAKE_NM,series_fuel_nm","TOYOTA,RAV4",0.93,1/1/16,1/1/17,manual,405016
+OUT_OF_DOOR_RV,out of door rvf,RVF,"MAKE_NM,series_fuel_nm","TOYOTA,AVALON",0.93,1/1/16,1/1/17,manual,405016
+OUT_OF_DOOR_RV,out of door rvf,RVF,"MAKE_NM,series_fuel_nm","TOYOTA,COROLLA",0.97,1/1/16,1/1/17,manual,405016
+OUT_OF_DOOR_RV,out of door rvf,RVF,"MAKE_NM,series_fuel_nm","TOYOTA,SIENNA",0.97,1/1/16,1/1/17,manual,405016
+OUT_OF_DOOR_RV,out of door rvf,RVF,"MAKE_NM,series_fuel_nm","TOYOTA,CAMRY HYBRID",0.93,1/1/16,1/1/17,manual,405016
+OUT_OF_DOOR_RV,out of door rvf,RVF,"MAKE_NM,series_fuel_nm","TOYOTA,PRIUS",0.93,1/1/16,1/1/17,manual,405016
+OUT_OF_DOOR_RV,out of door rvf,RVF,"MAKE_NM,series_fuel_nm","TOYOTA,AVALON HYBRID",0.93,1/1/16,1/1/17,manual,405016
+TFS_BASE_LINE,model constant,RVF,,,24,1/1/16,1/1/17,manual,405016
+SCALING_CUT_OFF,model constant,RVF,,,12,1/1/16,1/1/17,manual,405016
+FLEET_RETAIL_SEASON_FLAG,seasong flag,RVF,BUSINESS_MONTH,1,LOW,1/1/16,1/1/17,manual,405016
+FLEET_RETAIL_SEASON_FLAG,seasong flag,RVF,BUSINESS_MONTH,2,LOW,1/1/16,1/1/17,manual,405016
+FLEET_RETAIL_SEASON_FLAG,seasong flag,RVF,BUSINESS_MONTH,3,LOW,1/1/16,1/1/17,manual,405016
+FLEET_RETAIL_SEASON_FLAG,seasong flag,RVF,BUSINESS_MONTH,4,HIGH,1/1/16,1/1/17,manual,405016
+FLEET_RETAIL_SEASON_FLAG,seasong flag,RVF,BUSINESS_MONTH,5,HIGH,1/1/16,1/1/17,manual,405016
+FLEET_RETAIL_SEASON_FLAG,seasong flag,RVF,BUSINESS_MONTH,6,HIGH,1/1/16,1/1/17,manual,405016
+FLEET_RETAIL_SEASON_FLAG,seasong flag,RVF,BUSINESS_MONTH,7,HIGH,1/1/16,1/1/17,manual,405016
+FLEET_RETAIL_SEASON_FLAG,seasong flag,RVF,BUSINESS_MONTH,8,HIGH,1/1/16,1/1/17,manual,405016
+FLEET_RETAIL_SEASON_FLAG,seasong flag,RVF,BUSINESS_MONTH,9,HIGH,1/1/16,1/1/17,manual,405016
+FLEET_RETAIL_SEASON_FLAG,seasong flag,RVF,BUSINESS_MONTH,10,LOW,1/1/16,1/1/17,manual,405016
+FLEET_RETAIL_SEASON_FLAG,seasong flag,RVF,BUSINESS_MONTH,11,LOW,1/1/16,1/1/17,manual,405016
+FLEET_RETAIL_SEASON_FLAG,seasong flag,RVF,BUSINESS_MONTH,12,LOW,1/1/16,1/1/17,manual,405016
+HYBRID_FLAG,hybrid indicator flag,RVF,"MAKE_NM,series_fuel_nm","Toyota,Highlander Hybrid",1,1/1/16,1/1/17,manual,405016
+HYBRID_FLAG,hybrid indicator flag,RVF,"MAKE_NM,series_fuel_nm","Toyota,Prius",1,1/1/16,1/1/17,manual,405016
+HYBRID_FLAG,hybrid indicator flag,RVF,"MAKE_NM,series_fuel_nm","Lexus,RX Hybrid",1,1/1/16,1/1/17,manual,405016
+HYBRID_FLAG,hybrid indicator flag,RVF,"MAKE_NM,series_fuel_nm","Toyota,Avalon Hybrid",1,1/1/16,1/1/17,manual,405016
+HYBRID_FLAG,hybrid indicator flag,RVF,"MAKE_NM,series_fuel_nm","Toyota,Camry Hybrid",1,1/1/16,1/1/17,manual,405016
+HYBRID_FLAG,hybrid indicator flag,RVF,"MAKE_NM,series_fuel_nm","Toyota,Prius Plug-In",1,1/1/16,1/1/17,manual,405016
+HYBRID_FLAG,hybrid indicator flag,RVF,"MAKE_NM,series_fuel_nm","Toyota,Prius c",1,1/1/16,1/1/17,manual,405016
+HYBRID_FLAG,hybrid indicator flag,RVF,"MAKE_NM,series_fuel_nm","Toyota,Prius v",1,1/1/16,1/1/17,manual,405016
+HYBRID_FLAG,hybrid indicator flag,RVF,"MAKE_NM,series_fuel_nm","Toyota,RAV4 EV",1,1/1/16,1/1/17,manual,405016
+HYBRID_FLAG,hybrid indicator flag,RVF,"MAKE_NM,series_fuel_nm","Lexus,CT 200H",1,1/1/16,1/1/17,manual,405016
+HYBRID_FLAG,hybrid indicator flag,RVF,"MAKE_NM,series_fuel_nm","Lexus,ES Hybrid",1,1/1/16,1/1/17,manual,405016
+HYBRID_FLAG,hybrid indicator flag,RVF,"MAKE_NM,series_fuel_nm","Lexus,GS Hybrid",1,1/1/16,1/1/17,manual,405016
+HYBRID_FLAG,hybrid indicator flag,RVF,"MAKE_NM,series_fuel_nm","Lexus,LS 600H L",1,1/1/16,1/1/17,manual,405016
+HYBRID_FLAG,hybrid indicator flag,RVF,"MAKE_NM,series_fuel_nm","Scion,iQ",1,1/1/16,1/1/17,manual,405016
+inctv_outlier_cut,,INCTV_MRM,,,"0.01, 0.05, 0.1",5/3/16,5/2/17,manual,405016
+share_inctv_excl,,INCTV_MRM,,,"1, 5, 10, 1, 5, 10",5/4/16,5/2/17,manual,405016
+inctv_ratio_excl,,INCTV_MRM,,,"1, 1, 1, 5, 5, 5",5/5/16,5/2/17,manual,405016
+inctv_type_list,Four different incentive types that are used for selling Toyota vehicles,INCTV_MRM,,,"APR, LEASE, CASH_ALL, CASH",5/6/16,5/2/17,manual,405016
+inctv_indep_var_list,The list of variables used as independent variables,INCTV_MRM,,,"MODEL_YEAR, MSRP_COMP_RATIO, JAPAN_TSUNAMI, MAJOR_CHANGE, MINOR_CHANGE, LIFE_CYCLE_POSITION, COMP_LIFE_CYCLE_POSITION, COMP_MAJOR_CHANGE_PLUS_1, COMP_MAJOR_CHANGE, IN_MARKET_STAGE, MONTH, CONTEST_MONTH_FLG, THRUST_MONTH_FLG, GAS_PRICE_CHG_PCT",5/7/16,5/2/17,manual,405016
+sign_indep_var_list,Signs associated with the independent variables for variable selection,INCTV_MRM,,,"0, -1, -1, 0, 0, 0, 0, -1, -1, 0, 0, 1, 1, -1",5/8/16,5/2/17,manual,405016
+inctv_low_sales_threshold,Minimum sales share required as data for analysis,INCTV_MRM,,,0.05,5/9/16,5/2/17,manual,405016
+min_num_data,The minimum number of data points required for data analysis,INCTV_MRM,,,6,5/10/16,5/2/17,manual,405016
+no_enough_data_std_dev_factor,,INCTV_MRM,,,0.5,5/11/16,5/2/17,manual,405016
+p_value,threshhold of p-value to provide confidence level,INCTV_MRM,,,0.3,5/12/16,5/2/17,manual,405016
+min_inctv_elas,The minimum of the incentive elasticity range,INCTV_MRM,,,2,5/13/16,5/2/17,manual,405016
+max_inctv_elas,The maximum of the incentive elasticity range,INCTV_MRM,,,6,5/14/16,5/2/17,manual,405016
+inctv_elas_radius,A constant used to generate Bayesian probability curve,INCTV_MRM,,,2,5/15/16,5/2/17,manual,405016
+use_inctv_pct_ratio,A constant used to generate Bayesian probability curve,INCTV_MRM,,,0,5/16/16,5/2/17,manual,405016
+prior_inctv_mean,Mean incentive elasticity value for prior run or market standard value,INCTV_MRM,,,4,5/17/16,5/2/17,manual,405016
+prior_inctv_std_dev,Standard deviation of prior incentive elasticity,INCTV_MRM,,,0.75,5/18/16,5/2/17,manual,405016
+stepsize,A constant to generate the Bayesian probability curve,INCTV_MRM,,,0.1,5/19/16,5/2/17,manual,405016
+prior_adj_factor_no_best_model,,INCTV_MRM,,,2,5/20/16,5/2/17,manual,405016
+input_table_name,Input data signed to ,INCTV_MRM,,,INCENTIVE_MRM_NATION_INPUT,5/21/16,5/2/17,manual,405016
+prior_table_name,Prior eleasticity  value obtianed from,INCTV_MRM,,,MRM_PRIOR,5/22/16,5/2/17,manual,405016
+input_table_name,Input data signed to ,INCTV_MRM,,,INCENTIVE_MRM_REGION_INPUT,5/23/16,5/2/17,manual,405016
+output_table_name,Data output table,INCTV_MRM,,,ELASTICITY_OUTPUT,5/24/16,5/2/17,manual,405016
+prior_inctv_std_dev,Standard deviation of prior incentive elasticity,INCTV_MRM,,,0.75,5/25/16,5/2/17,manual,405016
+stepsize,A constant to generate the Bayesian probability curve,INCTV_MRM,,,0.1,5/26/16,5/2/17,manual,405016
+vif_cutoff,Threshhold value for variable selection for Inctv MRM,INCTV_MRM,,,10,5/27/16,5/2/17,manual,405016
+vif_cutoff,,MSRP_MRM,,,5,,,,
+output_table_name,,MSRP_MRM,,,IRM_PM_MSRP_ELASTICITY_OUTPUT,,,,
+msrp_ratio_excl,,MSRP_MRM,,,1{, 1{, 1{, 5{, 5{, 5{, 10{, 10{, 10,,,,
+msrp_indep_var_list,,MSRP_MRM,,,JAPAN_TSUNAMI{, MAJOR_CHANGE{, MINOR_CHANGE{, LIFE_CYCLE_POSITION{, COMP_LIFE_CYCLE_POSITION{, COMP_MAJOR_CHANGE_PLUS_1{,COMP_MAJOR_CHANGE{,IN_MARKET_STAGE{,MONTH{,GAS_PRICE_CHG_PCT,,,,
+prior_table_name,,MSRP_MRM,,,MRM_PRIOR,,,,
+max_msrp_elas,,MSRP_MRM,,,-2,,,,
+input_table_name,,MSRP_MRM,,,MSRP_MRM_INPUT,,,,
+share_msrp_excl,,MSRP_MRM,,,5{, 10{, 15{, 5{, 10{, 15{, 5{, 10{, 15,,,,
+stepsize,,MSRP_MRM,,,0.1,,,,
+msrp_outlier_cut,,MSRP_MRM,,,0.01{, 0.05{, 0.1{, 0.15,,,,
+prior_adj_factor_no_best_model,,MSRP_MRM,,,2,,,,
+sign_indep_var_list,,MSRP_MRM,,,1{, 1{, 1{,  0{, 0{, -1{, -1{, 0{, 0{, -1,,,,
+use_msrp_pct_ratio,,MSRP_MRM,,,0,,,,
+msrp_low_sales_threshold,,MSRP_MRM,,,0.05,,,,
+prior_msrp_mean,,MSRP_MRM,,,-3,,,,
+msrp_elas_radius,,MSRP_MRM,,,1.5,,,,
+prior_msrp_std_dev,,MSRP_MRM,,,0.75,,,,
+no_enough_data_std_dev_factor,,MSRP_MRM,,,0.5,,,,
+p_value,,MSRP_MRM,,,0.3,,,,
+min_num_data,,MSRP_MRM,,,6,,,,
+prior_msrp_std_dev,,MSRP_MRM,,,0.75,,,,
+min_msrp_elas,,MSRP_MRM,,,-5,,,,
+lexus.MSRP.coef.in.CFTP,,MSRP_MRM,,,0.943852,,,,
+toyota.MSRP.coef.in.CFTP,,MSRP_MRM,,,0.91775,,,,
